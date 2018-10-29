@@ -1,5 +1,3 @@
-//Created and owned by Marcel Jarosz and Mikołąj Spytek -- copying and distributing forbidden -- copyright 2017
-
 //Aliasowanie obiektów silnika
 var Engine = Matter.Engine,
     Render = Matter.Render,

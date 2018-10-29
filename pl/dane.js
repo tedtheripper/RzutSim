@@ -1,6 +1,3 @@
-//Created and owned by Marcel Jarosz and Mikołąj Spytek -- copying and distributing forbidden -- copyright 2017
-
-
 var pr_pocz1, kat_pocz1, wiatrx1, wiatry1, promien_pilki1, plyw1, szer_geo1, kierunek_rzutu1, pr_kat_pilki1, temp1;
 var g = 0, przyspieszeniegrawcp, masa_planetycp, masa_ksiezycacp, promien_planetycp, doba_planetycp;
 var kolor1 = 0, h01, opor_pow;
