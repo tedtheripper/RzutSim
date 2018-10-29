@@ -1,0 +1,61 @@
+body {
+  background-image: url("img/pinkdust.png");
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+.komorka{
+  /*padding: auto;*/
+  border-radius: 5px;
+  color: #ffffff;
+  margin: 1px;
+  width:600px;
+  height: 150px;
+  background-image: url("img/broken_noise.png");
+  float: left;
+}
+
+.pole {
+  border-color: #ff3636;
+  border-radius: 5px;
+  background-color: #eeeeee;
+  text-align: center;
+
+}
+
+.start{
+  clear: both;
+}
+
+.guzik{
+  float: left;
+  margin: 2px;
+  background-color: #eeeeee;
+  border: 0px;
+  margin: 5px;
+  border-radius: 2px;
+  width: 190px;
+  height: 20px;
+  text-align: center;
+}
+
+.guzik1{
+  margin: 2px;
+  background-color: #eeeeee;
+  border: 0px;
+  margin: 5px;
+  border-radius: 2px;
+  width: 190px;
+  height: 20px;
+  text-align: center;
+}
+
+.guzik:hover{
+  background-color: #73dc69;
+}
+
+.guzik1:hover{
+  background-color: #73dc69;
+}

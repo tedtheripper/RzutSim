@@ -1,0 +1,23 @@
+body{
+  text-align: center;
+  background-image: url("img/pinkdust.png");
+  margin:5px;
+}
+
+
+
+
+.guzik{
+  display: inline-block;
+  margin: 2px;
+  background-color: #eeeeee;
+  border: 0px;
+  margin: 5px;
+  border-radius: 2px;
+  width: 190px;
+  height: 20px;
+  text-align: center;
+}
+.guzik:hover{
+  background-color: #73dc69;
+}

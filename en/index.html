@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="pl/en">
+<head>
+    <meta charset="UTF-8">
+    <script src="../libraries/matter.js"></script>
+    <script src="dane.js"></script>
+    <link rel="stylesheet" type="text/css" href="in_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Data</title>
+
+</head>
+<body>
+    <h1 id="naglowek">Please insert data needed for execution of this simulation and then press start.</h1>
+
+
+
+    <div class="komorka">
+    <p class="opis">Initial speed (0 - 100) [m/s]</p>
+    <input class="pole" type="text" id="pr_pocz" value="50">
+    </div>
+
+    <div class="komorka">
+    <p class="opis">Angle of throw in degrees (0 for horizontal, 90 for vertical upwards, -90 for vertical downwards)</p>
+    <input class="pole" type="text" id="kat_pocz" value="45">
+    </div>
+
+    <div class="komorka">
+    <p class="opis">Velocity of wind (horizontal and vertical) [m/s]</p>
+    <input class="pole" type="text" id="wiatrx" value="0">
+    <input class="pole" type="text" id="wiatry" value="5">
+    </div>
+
+    <div class="komorka">
+    <p class="opis">Gravitational acceleration [m/s^2]</p>
+    <button class="guzik" onclick="planetFunction1()">Mercury</button>
+    <button class="guzik" onclick="planetFunction2()">Venus</button>
+    <button class="guzik" onclick="planetFunction3()">Earth</button>
+    <button class="guzik" onclick="planetFunction4()">Moon</button>
+    <button class="guzik" onclick="planetFunction5()">Mars</button>
+    <button class="guzik" onclick="planetFunction6()">Jupiter</button>
+    <p id="wybor_planety"></p>
+    </div>
+
+    <div class="komorka">
+    <p class="opis">Resistance of air (from 0 to 0.05)</p>
+    <input class="pole" type="text" id="promien_pilki" value="0.01">
+    </div>
+
+    <div class="komorka">
+    <p class="opis">Tidal force (1 for high, 2 for low, 0 for omission)</p>
+    <input class="pole" type="text" id="plyw" value="0">
+    </div>
+
+    <div class="komorka">
+    <p class="opis">Latitude in degrees (+ for north, - for south)</p>
+    <input class="pole" type="text" id="szer_geo" value="51.25">
+    </div>
+
+    <div class="komorka">
+    <p class="opis">Throw direction (E - east, W - west)</p>
+    <input class="pole" type="text" id="kierunek_rzutu" value="E">
+    </div>
+
+    <div class="komorka">
+    <p class="opis">Angular velocity of the ball [rad/s]</p>
+    <input class="pole" type="text" id="pr_kat_pilki" value="2">
+    </div>
+
+    <div class="komorka">
+    <p class="opis">Temperature [K]</p>
+    <input class="pole" type="text" id="temp" value="300">
+    </div>
+
+    <div class="komorka" >
+    <p class="opis">Color of the ball</p>
+    <button class="guzik" onclick="ballFunction1()">Red</button>
+    <button class="guzik" onclick="ballFunction2()">Blue</button>
+    <button class="guzik" onclick="ballFunction3()">White</button>
+    <button class="guzik" onclick="ballFunction4()">Green</button>
+    <button class="guzik" onclick="ballFunction5()">Yellow</button>
+    <button class="guzik" onclick="ballFunction6()">Orange</button>
+    <p id="wybor_koloru"></p>
+    </div>
+
+    <div class="komorka" id="ost">
+    <p class="opis">Initial height (0 - 1080) [m]</p>
+    <input class="pole" type="text" id="h0" value="120">
+    </div>
+
+
+<div class="start">
+    <button class="guzik1" onclick="startFunction()">Start!</button>
+</div>
+
+<div class="powrot">
+    <button class="guzik1" onclick="location.href = '../index.html';">Change language</button>
+</div>
+
+<script>
+      planetFunction3();
+      ballFunction1();
+    </script>
+
+
+</body>
+</html>
