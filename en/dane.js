@@ -205,7 +205,7 @@ function ballFunction(shit)
 	if(shit == 3) ballFunction3();
 	if(shit == 4) ballFunction4();
 	if(shit == 5) ballFunction5();
-	if(shit == 6) ballFunction(6);
+	if(shit == 6) ballFunction6();
 }
 
 function ballFunction1()
