@@ -198,6 +198,16 @@ function planetFunction6() {    //jowisz
     localStorage.setItem("doba_planetycp",doba_planetycp);
 }
 
+function ballFunction(shit)
+{
+	if(shit == 1) ballFunction1();
+	if(shit == 2) ballFunction2();
+	if(shit == 3) ballFunction3();
+	if(shit == 4) ballFunction4();
+	if(shit == 5) ballFunction5();
+	if(shit == 6) ballFunction6();
+}
+
 function ballFunction1()
 {
     kolor1 = "#ff6347";
